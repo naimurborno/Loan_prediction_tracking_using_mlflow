@@ -18,7 +18,7 @@ if __name__=="__main__":
         X_train,X_test,y_train,y_test=train_test_split(X,y,test_size=0.2,shuffle=True)
         # n_estimator=float(sys.argv[1] if len(sys.argv[1]>1 else 10))
         alpha=float(sys.argv[1] if len(sys.argv[1])>1 else 1)
-        l1=float(sys.argv[2] if len(sys.argv[2])>1 else 0.5)
+        l1=float(sys.argv[2] if len(sys.argv[2])>1 else 0.6)
 
 
         mlflow.sklearn.autolog()
