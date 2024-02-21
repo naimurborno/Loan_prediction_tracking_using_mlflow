@@ -10,6 +10,12 @@ Explain the purpose and goals of your project.
 This project utilizes [MLflow](https://www.mlflow.org/) for experiment tracking, packaging code into reproducible runs, and sharing and deploying models. MLflow helps streamline the machine learning lifecycle.
 
 ## Dagshub Credentials
+<<<<<<< master
+MLFLOW_TRACKING_URI=https://dagshub.com/naimurborno/Loan_prediction_tracking_using_mlflow.mlflow \
+MLFLOW_TRACKING_USERNAME=naimurborno \
+MLFLOW_TRACKING_PASSWORD=94ebc629914b4f17304744d67eec0b421a8f74d1  \
+=======
 MLFLOW_TRACKING_URI=https://dagshub.com/naimurborno/Loan_prediction_tracking_using_mlflow.mlflow
 MLFLOW_TRACKING_USERNAME=naimurborno
 
+>>>>>>> main
