@@ -13,6 +13,7 @@ This project utilizes [MLflow](https://www.mlflow.org/) for experiment tracking,
 MLFLOW_TRACKING_URI=https://dagshub.com/naimurborno/Loan_prediction_tracking_using_mlflow.mlflow \
 MLFLOW_TRACKING_USERNAME=naimurborno \
 MLFLOW_TRACKING_PASSWORD=94ebc629914b4f17304744d67eec0b421a8f74d1  \
+
 MLFLOW_TRACKING_URI=https://dagshub.com/naimurborno/Loan_prediction_tracking_using_mlflow.mlflow \
 MLFLOW_TRACKING_USERNAME=naimurborno \
 MLFLOW_TRACKING_PASSWORD=94ebc629914b4f17304744d67eec0b421a8f74d1 \
@@ -60,3 +61,4 @@ mlflow server -h 0.0.0.0 --default-artifact-root s3://mlflow-test-23
 
 #set uri in your local terminal and in your code 
 export MLFLOW_TRACKING_URI=http://ec2-54-147-36-34.compute-1.amazonaws.com:5000/
+
